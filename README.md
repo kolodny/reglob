@@ -10,4 +10,7 @@ usage
 ```js
 var reglob = require('reglob');
 
-reglob('./module-mixer-*.js');
+reglob(__dirname + '/module-mixer-*.js');
+```
+
+Don't use `reglob('./files*.js')`, use `reglob(__dirname + '/files*.js')` instead
