@@ -1,0 +1,32 @@
+{
+  "name": "reglob",
+  "version": "0.0.0",
+  "description": "require a glob",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "glob",
+    "require"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^4.3.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kolodny/reglob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/reglob/issues"
+  },
+  "homepage": "https://github.com/kolodny/reglob"
+}

@@ -1,0 +1,1 @@
+global.playground.moduleLoaded = true;
