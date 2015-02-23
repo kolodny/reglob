@@ -11,7 +11,8 @@ describe('reglob', function() {
     assert(global.playground.moduleLoaded);
   });
   it("doesn't require anything the glob doesn't match", function() {
-    reglob(__dirname + '/*.json');
+    var modules = reglob(__dirname + '/*.json');
+    assert.deepEqual(modules, [{whatsThis: 'data.json'}]);
     assert(!global.playground.moduleLoaded);
   });
 });
