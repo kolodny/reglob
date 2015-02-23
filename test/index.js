@@ -6,7 +6,8 @@ describe('reglob', function() {
     global.playground = {};
   });
   it('requires every file the glob matches', function() {
-    reglob(__dirname + '/*.es');
+    var modules = reglob(__dirname + '/*.es');
+    assert.deepEqual(modules, ['module']);
     assert(global.playground.moduleLoaded);
   });
   it("doesn't require anything the glob doesn't match", function() {

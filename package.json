@@ -1,6 +1,6 @@
 {
   "name": "reglob",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "require a glob",
   "main": "index.js",
   "scripts": {
